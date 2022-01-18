@@ -226,6 +226,10 @@ ptr=head;
 while(ptr->next!=NULL)
 {
 ptr=ptr->next;
+Pull requests
+Issues
+Marketplace
+Explore 
 }
 ptr->prev->next=NULL;
 free(ptr);
