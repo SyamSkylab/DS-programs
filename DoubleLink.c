@@ -20,16 +20,34 @@ void display();
 void search();
 void main()
 {
+<<<<<<< HEAD
 int choice=0;
 while(choice!=9)
 {
 printf("\n**********Main Menu**********\n");
+=======
+Pull requests
+Issues
+Marketplace
+Explore 
+int choice=0;
+while(choice!=9)
+{
+printf("\n********Main Menu*********\n");
+>>>>>>> f9c84447af91a92044712e5e4ed8583da025fbde
 printf("\nChoose one option from the following list...\n");
 printf("\n=============================================\n");
 printf("\n1.Insert at the beginning\n2.Insert at the last\n3.Insert at any random location\n4.Delete from beginning\n5.Delete from last\n6.Delete the node after the given data\n7.Search\n8.Show\n9.Exit\n");
 printf("\nEnter your choice:\n");
 scanf("\n%d",&choice);
 switch(choice)
+<<<<<<< HEAD
+=======
+Pull requests
+Issues
+Marketplace
+Explore 
+>>>>>>> f9c84447af91a92044712e5e4ed8583da025fbde
 {
 case 1:
 insertion_beginning();
@@ -53,6 +71,13 @@ case 7:
 search();
 break;
 case 8:
+<<<<<<< HEAD
+=======
+Pull requests
+Issues
+Marketplace
+Explore 
+>>>>>>> f9c84447af91a92044712e5e4ed8583da025fbde
 display();
 break;
 case 9:
@@ -74,6 +99,13 @@ printf("\nOverflow");
 }
 else
 {
+<<<<<<< HEAD
+=======
+Pull requests
+Issues
+Marketplace
+Explore 
+>>>>>>> f9c84447af91a92044712e5e4ed8583da025fbde
 printf("\nEnter item value:");
 scanf("%d",&item);
 if(head==NULL)
@@ -97,6 +129,13 @@ printf("\nNode inserted\n");
 void insertion_last()
 {
 struct node *ptr,*temp;
+<<<<<<< HEAD
+=======
+Pull requests
+Issues
+Marketplace
+Explore 
+>>>>>>> f9c84447af91a92044712e5e4ed8583da025fbde
 int item;
 ptr=(struct node *)malloc(sizeof(struct node));
 if(ptr==NULL)
@@ -109,6 +148,13 @@ printf("Enter the value:");
 scanf("%d",&item);
 ptr->data=item;
 if(head==NULL)
+<<<<<<< HEAD
+=======
+Pull requests
+Issues
+Marketplace
+Explore 
+>>>>>>> f9c84447af91a92044712e5e4ed8583da025fbde
 {
 ptr->next=NULL;
 ptr->prev=NULL;
@@ -202,6 +248,13 @@ ptr=head;
 while(ptr->next!=NULL)
 {
 ptr=ptr->next;
+<<<<<<< HEAD
+=======
+Pull requests
+Issues
+Marketplace
+Explore 
+>>>>>>> f9c84447af91a92044712e5e4ed8583da025fbde
 }
 ptr->prev->next=NULL;
 free(ptr);
